@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67F3FEA7-E8A6-4F03-8F0C-DB8D21463BAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Grocery_Management_Shop</RootNamespace>
+    <AssemblyName>Grocery Management Shop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login.Designer.cs">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dairy_Bakery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dairy_Bakery.Designer.cs">
+      <DependentUpon>Dairy_Bakery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eggs_Fish_Meat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eggs_Fish_Meat.Designer.cs">
+      <DependentUpon>Eggs_Fish_Meat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_form.Designer.cs">
+      <DependentUpon>Employee_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_login.Designer.cs">
+      <DependentUpon>Employee_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruits_Vegetables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruits_Vegetables.Designer.cs">
+      <DependentUpon>Fruits_Vegetables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grains.Designer.cs">
+      <DependentUpon>Grains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grocery_Management_ShopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Grocery_Management_ShopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Main_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_form.Designer.cs">
+      <DependentUpon>Main_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snack_Beverages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snack_Beverages.Designer.cs">
+      <DependentUpon>Snack_Beverages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spices.Designer.cs">
+      <DependentUpon>Spices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDetails.Designer.cs">
+      <DependentUpon>StockDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetailsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDetailsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetailsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDetailsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetailsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDetailsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetailsDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDetailsDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierDetails.Designer.cs">
+      <DependentUpon>SupplierDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs.Designer.cs">
+      <DependentUpon>Tabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_emp.Designer.cs">
+      <DependentUpon>Update_emp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome_pg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome_pg.Designer.cs">
+      <DependentUpon>Welcome_pg.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_login.resx">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dairy_Bakery.resx">
+      <DependentUpon>Dairy_Bakery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eggs_Fish_Meat.resx">
+      <DependentUpon>Eggs_Fish_Meat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_form.resx">
+      <DependentUpon>Employee_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_login.resx">
+      <DependentUpon>Employee_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruits_Vegetables.resx">
+      <DependentUpon>Fruits_Vegetables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grains.resx">
+      <DependentUpon>Grains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_form.resx">
+      <DependentUpon>Main_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Snack_Beverages.resx">
+      <DependentUpon>Snack_Beverages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spices.resx">
+      <DependentUpon>Spices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDetails.resx">
+      <DependentUpon>StockDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierDetails.resx">
+      <DependentUpon>SupplierDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs.resx">
+      <DependentUpon>Tabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_emp.resx">
+      <DependentUpon>Update_emp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome_pg.resx">
+      <DependentUpon>Welcome_pg.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Grocery_Management_ShopDataSet.xsc">
+      <DependentUpon>Grocery_Management_ShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Grocery_Management_ShopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Grocery_Management_ShopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Grocery_Management_ShopDataSet.xss">
+      <DependentUpon>Grocery_Management_ShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="StudentDetailsDataSet.xsc">
+      <DependentUpon>StudentDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDetailsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDetailsDataSet.xss">
+      <DependentUpon>StudentDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet1.xsc">
+      <DependentUpon>StudentDetailsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDetailsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDetailsDataSet1.xss">
+      <DependentUpon>StudentDetailsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet2.xsc">
+      <DependentUpon>StudentDetailsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDetailsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDetailsDataSet2.xss">
+      <DependentUpon>StudentDetailsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet3.xsc">
+      <DependentUpon>StudentDetailsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDetailsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDetailsDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDetailsDataSet3.xss">
+      <DependentUpon>StudentDetailsDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shop logo %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabs.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
